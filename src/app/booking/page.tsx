@@ -32,7 +32,7 @@ import HuayraSide from "@/src/assets/images/thumbnails/huayra-side.png";
 import { useState } from "react";
 
 export default function BookingPage() {
-    const [step, setStep] = useState<number>(4);
+    const [step, setStep] = useState<number>(1);
 
     const renderStep = () => {
         if (step === 1) {
